@@ -4,13 +4,12 @@
     box-sizing: border-box;
 }
 body{
-    /* height: 3000px; */
     font-family:'Times New Roman', Times, serif ;
 }
 .heder {
     width: 100%;
     height: 55px;
-    background-color:rgba(90, 108, 124, 0.7);
+    background-color:rgba(140, 163, 190, 0.7);
     z-index: 100;
     position: fixed;
 }
@@ -20,7 +19,6 @@ body{
     color: white;
 }
  .list {
-
     float: right;
     margin-right: 50px;
  }
@@ -45,19 +43,6 @@ body{
     border-radius: 10px;
     border: 0;
 } 
-.language:hover{
-    /* width: 100px; */
-    /* height: 35px; */
-    /* background-color: rgb(67, 67, 202); */
-    /* color: white; */
-}
-
-/* .textarea-heder{
-    width: 100px;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-right: 35px;
-} */
 .i111{
     margin-left: 15px;
     font-size: 35px;
@@ -85,14 +70,12 @@ body{
 .heder ul :hover{
     color:#02104e;
 }
-
 /* ///////////////////////////////////////////////////////////////////one siction */
 .div1 {
     width: 100%;
     height: 100vh;
     background-image: url(../imges/tap.webp);
     background-size: cover;
-    /* background-repeat: no-repeat; */
     position: relative;
 }
 .overlay{
@@ -101,13 +84,10 @@ body{
     top:0;
     background-color:rgba(136, 186, 233, 0.1);
     position: absolute;
-
 }
 .content{
     position: absolute;
     width: 55%;
-    /* height: 180px; */
-    /* background-color: rgb(255, 38, 0); */
     top: 50%;
     left: 50%;
     transform: translate(-10% , -50%);
@@ -130,46 +110,45 @@ h1{
     width: 150px;
     height: 40px;
     border-style: none;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 18px;
     margin-right: 20px;
     text-transform: capitalize;
-    background-color: rgb(0, 0, 85);
+    background-color: rgb(0, 113, 243);
     color: white;
     letter-spacing: 1px;
     margin-top: 7px;
-    margin-bottom: 5px;
-    
+    margin-bottom: 5px;  
 }
 .but-electronics1:hover{
-    background-color: rgb(7, 10, 182);
+    background-color: inherit;
+    border: 2px solid blue;
+    color: #000;
 }
 .but-electronics2{
     width: 150px;
     height: 40px;
     border-style: none;
-    border-radius: 50px;
+    border-radius: 10px;
     font-size: 18px;
     margin-right: 20px;
     text-transform: capitalize;
-    background-color: rgb(7, 4, 160);
+    background-color: rgb(34, 130, 219);
     color: rgb(255, 255, 255);
     letter-spacing: 1px;
 }
 .but-electronics2:hover{
-    background-color: rgb(0, 0, 75);
+    background-color: inherit;
+    border: 2px solid blue;
+    color: #000;
 }
 .a-electronics{
     color: rgb(40, 40, 231);
     font-size: 18px;
     margin-top: 30px;
-
-    
 }
 .a-electronics:hover{
     color: rgb(255, 0, 0);
-    /* font-size: 25px; */
-  
 }
 /* //////////////////////////////////////prodcts/////////////////////////////////// */
 .products-titel{
@@ -190,8 +169,6 @@ h1{
     width: 80%;
     height: 300px;
     margin: auto;
-    
-    /* position: relative; */
 }
 .prodect-info{
     float: left;
@@ -200,8 +177,7 @@ h1{
     margin-top: 100px;
     text-align: center;
     position: relative;
-    border-radius: 20px;
-    
+    border-radius: 20px;   
 }
 .ww{
     margin-left: 5% ;
@@ -209,10 +185,8 @@ h1{
 }
 .prodect-info i{
     font-size: 40px;
-    color: rgb(136, 136, 214);
-    margin-top: 30px;
-    
-    
+    color: rgb(136, 185, 214);
+    margin-top: 30px; 
 }
 .prodect-info  h2 {
     font-size: 25px;
@@ -236,39 +210,34 @@ h1{
     color: rgb(102, 102, 211);
 }
 .prodect-info a:hover{
-    color: rgb(15, 250, 250);
-    font-size: 22px;
+    color:rgb(165, 204, 255) ;
+    font-size: 20px;
 }
 .prodect-info::after{
     position: absolute;
     content: "";
-
     width: 0;
     height: 0;
-
-    
     top: 0;
     left: 0;
-    
     background-color:rgb(0, 0, 0 );
     opacity: 0;
     transition: .5s;
     z-index: -1;
 }
 .prodect-info:hover::after{
-    /* position: absolute; */
     width: 100%;
     height: 100%;
     opacity: .7;
     border-radius: 18px;
-    
+    content: "";  
 }
 /* /////////////////////////////////////////////////////////watch smart */
 .smart{
     width: 100%;
     margin-top: 100px;
     height: 800px;
-    background-color: #c8c9ee;
+    background-color: #c4e4ff18;
 }
 .smart-titel{
     text-align: center;
@@ -278,11 +247,9 @@ h1{
     letter-spacing: 1px;
     font-weight: bold;
     padding-top: 50px;
-   
-
 }
 .smare-line{
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.507);
     width: 90px;
     height: 5px;
     margin: auto;
@@ -295,14 +262,13 @@ h1{
 }
 .smart-perent{
     float: left;
-    background-color:rgb(163, 182, 201) ;
+    background-color:#c4e4ff52;
     width: 18%;
     border-radius: 20px;
 }
 .smart-perent:hover{
-    background-color: #6995be;
+    background-color:#c4e4ffb0;
     transition: .5s;
-   
 }
 .qq{
     margin: 0 2.5%;
@@ -312,14 +278,12 @@ h1{
 }
 .smart-name{
     margin-top: 20px;
-    margin-left: 8PX;
-
+    margin-left: 8px;
 }
 .smart-reviews{
     margin-left: 8PX;
     margin-top: 20px;
     font-size: 23px;
-    /* background-color: #0084ff; */
     text-transform: capitalize;
 }
 .smart-star{
@@ -327,12 +291,10 @@ h1{
     margin-left: 85px;
     color: rgb(150, 150, 7);
 }
-
 .smart-price{
     margin-left: 8PX;
     margin-top: 10px;
     font-size: 23px;
-    /* background-color: #0084ff; */
     text-transform: capitalize;
 }
 .smart-11999{
@@ -347,7 +309,7 @@ h1{
     width: 90%;
     margin-left: 5%;
     border-radius: 35px;
-    background-color: #02104e;
+    background-color: #008cff;
     color: #ffffff;
     margin-top: 20px;
     padding: 13px;
@@ -355,14 +317,14 @@ h1{
     border: none;
 }
 .smart-buy:hover{
-    background-color:rgb(90, 55, 196) ;
-    /* color: #0084ff; */
+    background-color:#008cff6c ;
+    cursor: pointer;
 }
 .smart-more{
     width: 90%;
     margin-left: 5%;
     border-radius: 35px;
-    background-color: rgb(90, 55, 196);
+    background-color: #045aa0;
     color: #ffffff;
     margin-top: 10px;
     padding: 13px;
@@ -371,19 +333,13 @@ h1{
     margin-bottom: 25px;
 }
 .smart-more:hover{
-    background-color: #02104e;
-    color: #ffffff;
+    background-color: #045aa07e;
 }
-
-
 /* ///////////////////////////////////////////////////////////medium */
 .back{
-    background-color: #c8c9ee;
+    background-color: #c4e4ff18;
     width: 100%;
-    /* margin-top: 200px; */
-    /* border: 3px solid rgb(209, 207, 207); */
-    height:950px;
-    
+    height:950px;  
 }
 .medium-titel{
     text-align: center;
@@ -397,53 +353,45 @@ h1{
     margin-top: 10px;
     width: 100px;
     height: 5px;
-    background-color: rgb(17, 0, 255);
+    background-color: rgba(0, 110, 255, 0.596);
 }
 .medium-container{
     width: 70%;
     margin: auto;
     margin-top: 80px;
 }
-/* .medium-perint{
-    /* position: relative; */
-/* } */ 
 .medium-content{
     width: 30%;
-    background-color: #727477;
     float: left;
     text-align: center;
-    /* padding:14px; */
     position: relative;
 }
 .ll{
     margin: 0 5%;
 }
 .medium-img{
-    /* background-color: rgb(226, 225, 225); */
     width:100%;
     margin: auto;
-    /* position: relative; */
 }
 .medium-img img{
     padding: 15px 0;
     width: 100%;
-    background-color:  #cccefc;
+    border-radius: 20px;
+
+    background-color:  #c4e4ff59;
 }
 .medium-overley{
     position: absolute;
     top: 0;
     width: 100%;
     height: 100%;
-    background-color:rgba(25, 31, 66, 0.8);
-    visibility: hidden;
+    background-color:rgba(43, 81, 204, 0.2);
+    border-radius: 20px;
     opacity: 0;
     transition: 1s;
-    
 }
 .medium-img:hover .medium-overley {
     opacity: 1;
-    visibility: visible;
-   
 }
 .medium-overley h2{
     color: beige;
@@ -465,11 +413,10 @@ h1{
 }
 /* ///////////////////////////////////////// end///////////////////////////////////// */
 .end{
-    background-color: rgb(61, 57, 75);
+    background-color: rgb(0, 27, 78);
     width: 100%;
     height: 250px;
     text-align: center;
-    /* margin-top: 50px; */
 }
 .end-img{
     background-color: rgb(255, 255, 255);
@@ -481,25 +428,21 @@ h1{
     margin-top: 15px;
 }
 .end-i a i{
-    background-color: rgb(123, 123, 250);
+    background-color: rgb(117, 155, 224);
     color: white;
     width: 50px;
     height: 50px;
     font-size: 20px;
     border-radius: 50%;
     line-height: 50px;
-
 }
 .end-i a i:hover{
-    background-color: rgb(37, 37, 243);
-    
+    background-color: blue;
 }
 .end-p{
     color: rgb(148, 146, 146);
     margin-top: 15px;
-    font-size: 13px;
-    
-    
+    font-size: 13px;    
 }
 /* /////////////////////////////////////////////////////////////////////What We Offer */
 .offer-background{
@@ -510,12 +453,11 @@ h1{
     margin-top: 100px;
     font-size: 40px;
     letter-spacing: 2px;
-
 }
 .offer-line{
     width: 80px;
     height: 5px;
-    background-color: blue;
+    background-color: rgba(0, 68, 255, 0.788);
     margin: auto;
     margin-top: 10px;
     margin-bottom: 70px;
@@ -523,9 +465,7 @@ h1{
 .offer-container{
     width: 80%;
     margin: auto;
-    /* margin-top: 80px; */
     height: 220px;
-    
 }
 .ff{
     margin: 0 5%;
@@ -536,26 +476,22 @@ h1{
     float: left;
     border: 1px solid rgb(168, 166, 166);
     position: relative;
-
 }
 .offer-content{
     margin-left: 70px;
     margin-top: 10px;
     margin-right: 20px;
-
 }
 .offer-i i{
     font-size: 35px;
-    color: rgb(122, 122, 241);
+    color: rgb(80, 148, 236);
     margin-top: 20px;
     margin-left: 20px;
     position: absolute;
-
 }
 .offer-content h2{
     line-height: 50px;
     letter-spacing: 1px;
-
 }
 .offer-content p {
     line-height: 30px;
@@ -564,18 +500,14 @@ h1{
     word-spacing: 3px;
     text-transform: capitalize;
     margin-right: 50px;
-    
 }
 .offer-perint::after{
     position: absolute;
     content: "";
-
     width: 0;
     height: 0;
-
     top: 0;
     right: 0;
-
     background-color: black;
     opacity: 0;
     transition: .5s;
@@ -596,7 +528,7 @@ h1{
     text-align: center;
 }
 .pricing-line{
-    background-color: blue;
+    background-color: rgb(63, 146, 255);
     height: 5px;
     width: 100px;
     margin: auto;
@@ -611,7 +543,7 @@ h1{
 .pricing-perint{
     float: left;
     width: 30%;
-    border: 2px solid rgb(158, 158, 158);
+    border: 1px solid rgb(207, 207, 207);
     text-align: center;
     border-radius: 20px;
     position: relative;
@@ -626,31 +558,25 @@ h1{
 }
 .pricing-price{
     margin: auto;
-    border: 3px solid rgb(112, 112, 236);
+    border: 3px solid rgb(74, 119, 243);
     margin-top: 20px;
     margin-bottom: 10;
     width: 90px;
     height: 90px;
     border-radius: 50%;
-    /* font-size: 20px; */
 }
+
 .pricing-span1{
     margin-top: 20px;
-    /* line-height: 25px; */
     font-size: 30px;
-    /* font: bold; */
-
 }
 .pricing-span2{
-    
     line-height: 30px;
     font-size: 27px;
-
 }
 .pricing-perint p{
     line-height: 30px;
     color: gray;
-    
 }
 .pricing-but{
     font-size: 20px;
@@ -666,10 +592,8 @@ h1{
 
     width: 100%;
     height: 0;
-
     top: 0;
     left: 0;
-    
     background-color: black;
     opacity: 0;
     transition: .5s;
@@ -686,22 +610,19 @@ h1{
     transition: .5s;
 }
 .pricing-perint:hover p{
-    color: rgb(185, 185, 185);
+    color: white;
     transition: .5s;
 }
 .pricing-but:hover{
     width: 190px;
-    background-color: rgb(79, 135, 238);
+    background-color: rgba(79, 135, 238, 0.685);
     color: white;
     transition: .5s;
 }
-.pricing-perint:hover .pricing-span1{
-    color:rgb(177, 177, 226) ;
-    transition: .5s;
-}
+.pricing-perint:hover .pricing-span1,
 .pricing-perint:hover .pricing-span2{
-    color:rgb(177, 177, 226) ;
     transition: .5s;
+    color: white;
 }
 /* /////////////////////////////////////////////////awards////////////////////// */
 .awards{
@@ -740,7 +661,6 @@ h1{
     color: #ffffff;
     font-size: 20px;
     text-transform: capitalize;
-
 }
 /* ////////////////////////////////////////////////////////////////////our team */
 .team{
@@ -757,7 +677,7 @@ h1{
     margin: auto;
     width: 100px;
     height: 5px;
-    background-color: blue;
+    background-color: rgb(43, 134, 253);
     margin-top: 10px;
 }
 .team-container{
@@ -769,7 +689,7 @@ h1{
     width: 30%;
     float: left;
     text-align: center;
-    background-color:  #c8c9ee;
+    background-color:  #c4e4ff65;
     padding: 12px 25px;
     border-radius: 20px;
     position: relative;
@@ -808,19 +728,15 @@ h1{
     width: 40px;
     height: 40px;
     color: #ffffff;
-    background-color: rgb(133, 133, 238);
+    background-color: rgb(158, 198, 245);
     line-height: 40px;
-    margin-left: auto;
-   
+    margin-left: auto;   
 }
 .team-ovarlay i:hover{
-    background-color: blue;
+    background-color: rgb(0, 60, 255);
 }
 .team-ovarlay a{
     text-decoration: none;
-}
-.team-content{
-    
 }
 .team-content h2{
     text-transform: capitalize;
@@ -843,33 +759,28 @@ h1{
 .team-perent:hover p{
     color: rgb(252, 91, 91);
     transition: .5s;
-
 }
 .team-perent::after{
     position: absolute;
     content: "";
-
     width: 100%;
     height: 0;
-
     top: 0;
     left: 0;
-    background-color:rgba(121, 139, 240, 0.8);
+    background-color:rgb(102, 161, 238);
     opacity: 0;
     transition: 1s;
     border-radius: 20px;
-    /* z-index: -1; */
 }
 .team-perent:hover::after{
     width: 100%;
     height: 100%;
     opacity: .3;
-    
 }
 /* //////////////////////////////////////////////////// samsung galaxy s23 ultra */
 .s23{
     height: 700px;
-    background-color:#c8c9ee;
+    background:#c4e4ff18;
 }
 .s23-titel{
     text-align: center;
@@ -878,13 +789,12 @@ h1{
     margin-top:50px;
     text-transform: capitalize;
     padding-top: 50px;
-    
 }
 .s23-line{
     width: 250px;
     height: 5px;
     margin: auto;
-    background-color: blue;
+    background-color: rgba(0, 89, 255, 0.534);
     margin-top: 10px;
     margin-bottom: 50px;
 }
@@ -894,20 +804,16 @@ h1{
 }
 .s23-perent{
     float: left;
-    width: 50%;
-    
+    width: 50%;    
 }
 .dd{
     padding: 0 10%;
 }
 .s23-why{
-    
     font-size: 26px;
     line-height: 40px;
-    /* letter-spacing: 1px; */
     text-transform: capitalize;
     margin-top: 20px;
-
 }
 .s23-p{
     margin-top: 10px;
@@ -917,11 +823,7 @@ h1{
 
 }
 .s23-teble{
-    /* margin-top: 30px; */
-    /* border: red; */
     text-align: center;
-    /* background-color: rgb(145, 161, 161); */
-
 }
 .s23-teble caption{
     font-size: 30px;
@@ -932,29 +834,27 @@ h1{
 }
 .s23-teble thead{
     font-size: 21px;
-    background-color: #9699ee;
+    background-color: #79b4eb;
     line-height: 30px;
     text-transform: capitalize;
 }
 .s23-teble tbody{
     line-height: 25px;
     font-size: 18px;
-    background-color: #d5d6e0;
+    background-color: #e4ebf1;
 }
 .s23-teble tfoot{
     line-height: 25px;
     font-size: 18px;
-    background-color: #d5d6e0;
+    background-color: #e4ebf1;
 }
 .s23-teble i{
     font-size: 30px;
-    color: rgb(75, 75, 219);
+    color: #79b4eb;
     line-height: 40px;
-    
 }
 .s23-img img{
     height: 380px;
-    /* width: 350px; */
 }
 .s23-point div{
     height: 9px;
@@ -964,8 +864,6 @@ h1{
     display: inline-block;
     margin-left: 3px;
     margin-top: 8px;
-    
-
 }
 .s23-point .nn{
     margin-left: 146px;
@@ -976,7 +874,6 @@ h1{
 .s23-price-h3{
     font-size: 23px;
     text-transform: capitalize;
-
 }
 .s23-price-p{
     margin-left: 60px;
@@ -992,12 +889,10 @@ h1{
     margin-top: 10px;
     border: none;
     border-radius: 40px;
-
 }
 .zz{
     margin-left: 60px;
     background-color: rgb(109, 109, 230);
-
 }
 .zzz{
     background-color: burlywood;
@@ -1005,7 +900,6 @@ h1{
 }
 .s23-price-but:hover{
     opacity: .8;
-    /* color: #f0f0f0; */
 }
 /* ////////////////////////////////////////////////////////////////web designer */
 .designer{
@@ -1027,7 +921,6 @@ h1{
     width: 40%;
    float: left; 
    margin-top: 120px;
-   /* background-color: red; */
 }
 .nn{
     margin-left: 10%;
@@ -1051,7 +944,6 @@ h1{
 }
 .designer-p1{
     margin-left: 100px;
-    /* margin-top: 5px; */
     font-size: 20px;
     color: #0084ff;
 }
@@ -1060,7 +952,6 @@ h1{
     margin-left: 15px;
     margin-top: 10px;
     letter-spacing: 1px;
-    /* word-spacing: 2px; */
 }
 /* ////////////////////////////////////////////////////////////////////////discounts */
 .discounts{
@@ -1073,7 +964,7 @@ h1{
     text-transform: capitalize;
 }
 .discounts-line{
-    background-color: blue;
+    background-color: rgb(59, 102, 245);
     width: 80px;
     height: 5px;
     margin: auto;
@@ -1123,7 +1014,6 @@ h1{
 .discounts-h2{
     margin-top: 10px;
     text-transform: capitalize;
-
 }
 .discounts-p{
     margin-top: 10px;
@@ -1136,8 +1026,6 @@ h1{
     font-size: 25px;
     text-decoration: none;
     color: #0084ff;
-    
-    /* margin: 50px; */
 }
 .discounts-read:hover{
     color: red;
@@ -1148,19 +1036,15 @@ h1{
 .discounts-link span{
     font-size: 25px;
     background-color: #b4bece;
-    
 }
 .discounts-perent::after{
     position: absolute;
     content: "";
-
     width: 100%;
     height: 0;
-
     top: 0;
     left: 0;
-
-    background-color: rgba(139, 149, 201, .7);
+    background-color: rgba(110, 171, 240, 0.2);
     opacity: 0;
     transition: 1s;
     z-index: -1;
@@ -1170,5 +1054,3 @@ h1{
     height: 100%;
     opacity: .7;
 }
-
-
